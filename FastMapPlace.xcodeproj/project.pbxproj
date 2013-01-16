@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91BEF7B1695E5EF0063C3A7 /* UIFlickrPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91BEF7A1695E5EF0063C3A7 /* UIFlickrPhotoViewController.m */; };
+		D91BEF7F1695FC6F0063C3A7 /* UIPlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91BEF7E1695FC6F0063C3A7 /* UIPlaceTableViewController.m */; };
+		D91BEF8216966D620063C3A7 /* UIRecentPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91BEF8116966D620063C3A7 /* UIRecentPhotosTableViewController.m */; };
+		D9338D651695342000A9D020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9338D641695342000A9D020 /* UIKit.framework */; };
+		D9338D671695342000A9D020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9338D661695342000A9D020 /* Foundation.framework */; };
+		D9338D691695342000A9D020 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9338D681695342000A9D020 /* CoreGraphics.framework */; };
+		D9338D6F1695342000A9D020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9338D6D1695342000A9D020 /* InfoPlist.strings */; };
+		D9338D711695342000A9D020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9338D701695342000A9D020 /* main.m */; };
+		D9338D751695342000A9D020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9338D741695342000A9D020 /* AppDelegate.m */; };
+		D9338D781695342000A9D020 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9338D761695342000A9D020 /* MainStoryboard_iPhone.storyboard */; };
+		D9338D7B1695342000A9D020 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9338D791695342000A9D020 /* MainStoryboard_iPad.storyboard */; };
+		D9338D86169537BC00A9D020 /* UITopPlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9338D85169537BC00A9D020 /* UITopPlacesTableViewController.m */; };
+		D9338D8A1695381F00A9D020 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D9338D891695381F00A9D020 /* FlickrFetcher.m */; };
+		D98F31EF16A08433008603C9 /* FlickrPlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D98F31EE16A08433008603C9 /* FlickrPlaceAnnotation.m */; };
+		D993A0E116A499CD00A1A392 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D993A0E016A499CD00A1A392 /* ImageCache.m */; };
+		D9DFAF45169F26C2001BB7C1 /* PhotoListMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DFAF44169F26C2001BB7C1 /* PhotoListMapViewController.m */; };
+		D9DFAF48169F2729001BB7C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DFAF47169F2729001BB7C1 /* MapKit.framework */; };
+		D9DFAF4A169F2732001BB7C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DFAF49169F2732001BB7C1 /* CoreLocation.framework */; };
+		D9DFAF4D169F37CE001BB7C1 /* FlickrPhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DFAF4C169F37CE001BB7C1 /* FlickrPhotoAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D91BEF791695E5EF0063C3A7 /* UIFlickrPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFlickrPhotoViewController.h; sourceTree = "<group>"; };
+		D91BEF7A1695E5EF0063C3A7 /* UIFlickrPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFlickrPhotoViewController.m; sourceTree = "<group>"; };
+		D91BEF7D1695FC6F0063C3A7 /* UIPlaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceTableViewController.h; sourceTree = "<group>"; };
+		D91BEF7E1695FC6F0063C3A7 /* UIPlaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceTableViewController.m; sourceTree = "<group>"; };
+		D91BEF8016966D600063C3A7 /* UIRecentPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecentPhotosTableViewController.h; sourceTree = "<group>"; };
+		D91BEF8116966D620063C3A7 /* UIRecentPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecentPhotosTableViewController.m; sourceTree = "<group>"; };
+		D9338D601695342000A9D020 /* FastMapPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastMapPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9338D641695342000A9D020 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9338D661695342000A9D020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9338D681695342000A9D020 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9338D6C1695342000A9D020 /* FastMapPlace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastMapPlace-Info.plist"; sourceTree = "<group>"; };
+		D9338D6E1695342000A9D020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9338D701695342000A9D020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9338D721695342000A9D020 /* FastMapPlace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FastMapPlace-Prefix.pch"; sourceTree = "<group>"; };
+		D9338D731695342000A9D020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9338D741695342000A9D020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9338D771695342000A9D020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D9338D7A1695342000A9D020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D9338D84169537BC00A9D020 /* UITopPlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITopPlacesTableViewController.h; sourceTree = "<group>"; };
+		D9338D85169537BC00A9D020 /* UITopPlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITopPlacesTableViewController.m; sourceTree = "<group>"; };
+		D9338D871695381F00A9D020 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		D9338D881695381F00A9D020 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		D9338D891695381F00A9D020 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		D98F31ED16A08433008603C9 /* FlickrPlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPlaceAnnotation.h; sourceTree = "<group>"; };
+		D98F31EE16A08433008603C9 /* FlickrPlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPlaceAnnotation.m; sourceTree = "<group>"; };
+		D993A0DF16A499CC00A1A392 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		D993A0E016A499CD00A1A392 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		D9DFAF43169F26C2001BB7C1 /* PhotoListMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListMapViewController.h; sourceTree = "<group>"; };
+		D9DFAF44169F26C2001BB7C1 /* PhotoListMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListMapViewController.m; sourceTree = "<group>"; };
+		D9DFAF47169F2729001BB7C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D9DFAF49169F2732001BB7C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D9DFAF4B169F37CE001BB7C1 /* FlickrPhotoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoAnnotation.h; sourceTree = "<group>"; };
+		D9DFAF4C169F37CE001BB7C1 /* FlickrPhotoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9338D5D1695341F00A9D020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DFAF4A169F2732001BB7C1 /* CoreLocation.framework in Frameworks */,
+				D9DFAF48169F2729001BB7C1 /* MapKit.framework in Frameworks */,
+				D9338D651695342000A9D020 /* UIKit.framework in Frameworks */,
+				D9338D671695342000A9D020 /* Foundation.framework in Frameworks */,
+				D9338D691695342000A9D020 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9338D551695341F00A9D020 = {
+			isa = PBXGroup;
+			children = (
+				D9DFAF49169F2732001BB7C1 /* CoreLocation.framework */,
+				D9DFAF47169F2729001BB7C1 /* MapKit.framework */,
+				D9338D6A1695342000A9D020 /* Fast Map Place */,
+				D9338D631695342000A9D020 /* Frameworks */,
+				D9338D611695342000A9D020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9338D611695342000A9D020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9338D601695342000A9D020 /* FastMapPlace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9338D631695342000A9D020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9338D641695342000A9D020 /* UIKit.framework */,
+				D9338D661695342000A9D020 /* Foundation.framework */,
+				D9338D681695342000A9D020 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9338D6A1695342000A9D020 /* Fast Map Place */ = {
+			isa = PBXGroup;
+			children = (
+				D9338D871695381F00A9D020 /* FlickrAPIKey.h */,
+				D9338D881695381F00A9D020 /* FlickrFetcher.h */,
+				D9338D891695381F00A9D020 /* FlickrFetcher.m */,
+				D9338D761695342000A9D020 /* MainStoryboard_iPhone.storyboard */,
+				D9338D791695342000A9D020 /* MainStoryboard_iPad.storyboard */,
+				D91BEF7D1695FC6F0063C3A7 /* UIPlaceTableViewController.h */,
+				D91BEF7E1695FC6F0063C3A7 /* UIPlaceTableViewController.m */,
+				D91BEF791695E5EF0063C3A7 /* UIFlickrPhotoViewController.h */,
+				D91BEF7A1695E5EF0063C3A7 /* UIFlickrPhotoViewController.m */,
+				D9338D6B1695342000A9D020 /* Supporting Files */,
+				D9338D84169537BC00A9D020 /* UITopPlacesTableViewController.h */,
+				D9338D85169537BC00A9D020 /* UITopPlacesTableViewController.m */,
+				D91BEF8016966D600063C3A7 /* UIRecentPhotosTableViewController.h */,
+				D91BEF8116966D620063C3A7 /* UIRecentPhotosTableViewController.m */,
+				D9DFAF43169F26C2001BB7C1 /* PhotoListMapViewController.h */,
+				D9DFAF44169F26C2001BB7C1 /* PhotoListMapViewController.m */,
+				D9DFAF4B169F37CE001BB7C1 /* FlickrPhotoAnnotation.h */,
+				D9DFAF4C169F37CE001BB7C1 /* FlickrPhotoAnnotation.m */,
+				D98F31ED16A08433008603C9 /* FlickrPlaceAnnotation.h */,
+				D98F31EE16A08433008603C9 /* FlickrPlaceAnnotation.m */,
+				D993A0DF16A499CC00A1A392 /* ImageCache.h */,
+				D993A0E016A499CD00A1A392 /* ImageCache.m */,
+			);
+			name = "Fast Map Place";
+			path = "Flickr Top Places";
+			sourceTree = "<group>";
+		};
+		D9338D6B1695342000A9D020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9338D731695342000A9D020 /* AppDelegate.h */,
+				D9338D741695342000A9D020 /* AppDelegate.m */,
+				D9338D6C1695342000A9D020 /* FastMapPlace-Info.plist */,
+				D9338D6D1695342000A9D020 /* InfoPlist.strings */,
+				D9338D701695342000A9D020 /* main.m */,
+				D9338D721695342000A9D020 /* FastMapPlace-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9338D5F1695341F00A9D020 /* FastMapPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9338D811695342000A9D020 /* Build configuration list for PBXNativeTarget "FastMapPlace" */;
+			buildPhases = (
+				D9338D5C1695341F00A9D020 /* Sources */,
+				D9338D5D1695341F00A9D020 /* Frameworks */,
+				D9338D5E1695341F00A9D020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastMapPlace;
+			productName = "Flickr Top Places";
+			productReference = D9338D601695342000A9D020 /* FastMapPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9338D571695341F00A9D020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D9338D5A1695341F00A9D020 /* Build configuration list for PBXProject "FastMapPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9338D551695341F00A9D020;
+			productRefGroup = D9338D611695342000A9D020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9338D5F1695341F00A9D020 /* FastMapPlace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9338D5E1695341F00A9D020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9338D6F1695342000A9D020 /* InfoPlist.strings in Resources */,
+				D9338D781695342000A9D020 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D9338D7B1695342000A9D020 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9338D5C1695341F00A9D020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9338D711695342000A9D020 /* main.m in Sources */,
+				D9338D751695342000A9D020 /* AppDelegate.m in Sources */,
+				D9338D86169537BC00A9D020 /* UITopPlacesTableViewController.m in Sources */,
+				D9338D8A1695381F00A9D020 /* FlickrFetcher.m in Sources */,
+				D91BEF7B1695E5EF0063C3A7 /* UIFlickrPhotoViewController.m in Sources */,
+				D91BEF7F1695FC6F0063C3A7 /* UIPlaceTableViewController.m in Sources */,
+				D91BEF8216966D620063C3A7 /* UIRecentPhotosTableViewController.m in Sources */,
+				D9DFAF45169F26C2001BB7C1 /* PhotoListMapViewController.m in Sources */,
+				D9DFAF4D169F37CE001BB7C1 /* FlickrPhotoAnnotation.m in Sources */,
+				D98F31EF16A08433008603C9 /* FlickrPlaceAnnotation.m in Sources */,
+				D993A0E116A499CD00A1A392 /* ImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9338D6D1695342000A9D020 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9338D6E1695342000A9D020 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9338D761695342000A9D020 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9338D771695342000A9D020 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D9338D791695342000A9D020 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9338D7A1695342000A9D020 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9338D7F1695342000A9D020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9338D801695342000A9D020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9338D821695342000A9D020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flickr Top Places/FastMapPlace-Prefix.pch";
+				INFOPLIST_FILE = "Flickr Top Places/FastMapPlace-Info.plist";
+				PRODUCT_NAME = FastMapPlace;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9338D831695342000A9D020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flickr Top Places/FastMapPlace-Prefix.pch";
+				INFOPLIST_FILE = "Flickr Top Places/FastMapPlace-Info.plist";
+				PRODUCT_NAME = FastMapPlace;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9338D5A1695341F00A9D020 /* Build configuration list for PBXProject "FastMapPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9338D7F1695342000A9D020 /* Debug */,
+				D9338D801695342000A9D020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9338D811695342000A9D020 /* Build configuration list for PBXNativeTarget "FastMapPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9338D821695342000A9D020 /* Debug */,
+				D9338D831695342000A9D020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9338D571695341F00A9D020 /* Project object */;
+}
